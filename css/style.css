@@ -1,0 +1,114 @@
+/* Universal  */
+h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, li{
+    padding: 0;
+}
+
+hr {
+    opacity: 1;
+}
+
+section {
+    margin-top: 130px;
+}
+.cu-wi{
+    width: 10%;
+}
+
+/* Header 
+ */
+
+.header {
+    background-image: radial-gradient(rgba(197, 197, 197, 0), rgba(10, 10, 10, 0.723)), url("../images/bike-3.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.banner h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 85px;
+}
+
+/* Featured Section  */
+.featured-bike {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.custom-card{
+    padding: 40px 35px;
+}
+.accordion-item h2{
+    line-height: 30px;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+footer{
+    margin-top: 130px;
+}
+
+@media screen and (max-width:576px) {
+    section{
+        margin-top: 40px;
+    }
+    h2{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .banner h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .custom-card{
+        padding: 20px 10px;
+    }
+    footer{
+        margin-top: 40px;
+    }
+}
+@media screen and (min-width:576px) {
+    section{
+        margin-top: 60px;
+    }
+    h2{
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .banner h1 {
+        font-size: 53px;
+        line-height: 58px;
+    }
+    .custom-card{
+        padding: 20px 10px;
+    }
+    footer{
+        margin-top: 60px;
+    }
+}
